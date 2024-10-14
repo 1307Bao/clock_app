@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".fragment.CountdownChangeFragment">
+
+
+    <Button
+        android:id="@+id/cancelAddCountdownBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/cancel"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/orange"/>
+
+    <Button
+        android:id="@+id/changeCountdownBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/change"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/orange"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rounded_background"
+        android:alpha="0.5"/>
+
+    <NumberPicker
+        android:theme="@style/AppTheme.Picker"
+        android:id="@+id/numberPickerMinuteCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundTint="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:id="@+id/textHourAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phút"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large"
+        app:layout_constraintStart_toEndOf="@id/numberPickerMinuteCountdown"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="100dp"/>
+
+    <NumberPicker
+        android:theme="@style/AppTheme.Picker"
+        android:id="@+id/numberPickerSecondCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/textHourAdd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="giây"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large"
+        app:layout_constraintStart_toEndOf="@id/numberPickerSecondCountdown"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="100dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

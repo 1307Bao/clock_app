@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Thời gian"
+        android:icon="@drawable/baseline_alarm_on_24"
+        android:id="@+id/time"/>
+    <item android:title="Báo thức"
+        android:icon="@drawable/baseline_access_alarm_24"
+        android:id="@+id/alarm" />
+    <item android:title="Bấm giờ"
+        android:icon="@drawable/baseline_access_time_24"
+        android:id="@+id/stopwatch"/>
+    <item android:title="Hẹn giờ"
+        android:icon="@drawable/baseline_timelapse_24"
+        android:id="@+id/timer"/>
+
+</menu>

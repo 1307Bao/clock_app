@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text size   -->
+    <dimen name="text_size_small">8sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_for_hour">40sp</dimen>
+
+
+    <!-- Margin values    -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+
+    <!-- switch value   -->
+    <dimen name="height_switch">100dp</dimen>
+    <dimen name="width_switch">100dp</dimen>
+    <dimen name="radius_switch">100dp</dimen>
+</resources>

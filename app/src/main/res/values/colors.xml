@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FFfe9f09</color>
+    <color name="textColorUnactive">#848388</color>
+
+    <!-- Timer's button color -->
+    <color name="defaultColorBtnStart">#092911</color>
+    <color name="defaultColorTextBtnStart">#26bc4b</color>
+    <color name="defaultColorBtnStop">#343434</color>
+
+    <color name="colorPrimary">#6200EE</color> <!-- Màu tím -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Màu tím đậm -->
+    <color name="colorAccent">#03DAC5</color> <!-- Màu xanh ngọc -->
+
+    <!--  Checkbox's  color  -->
+    <color name="check">#03ff72</color>
+</resources>
